@@ -1,0 +1,45 @@
+**Step 2 Results: Baseline with Enhanced Features**
+
+---
+
+### **Dataset Description**
+The dataset used for this step is `enhanced_features.csv`, which includes additional features such as standard deviation, skewness, and cragness, derived through feature engineering.
+
+---
+
+### **Performance Metrics**
+
+#### **Accuracy**:
+- 0.824
+
+#### **Confusion Matrix**:
+```
+[[35 10]
+ [ 9 54]]
+```
+
+#### **Classification Report**:
+```
+              precision    recall  f1-score   support
+
+           0       0.80      0.78      0.79        45
+           1       0.84      0.86      0.85        63
+
+    accuracy                           0.82       108
+   macro avg       0.82      0.82      0.82       108
+weighted avg       0.82      0.82      0.82       108
+```
+
+#### **ROC Curve AUC**:
+- 0.82
+
+---
+
+### **Figure Reference**
+The ROC Curve for this step is saved as `Figure_3_ROC_DecisionTree_EnhancedFeatures.png` in the `Figures` folder.
+
+---
+
+### **Notes**
+This model demonstrates improved performance with enhanced features compared to the baseline model without feature engineering. Future steps will involve hyperparameter tuning and cross-validation to optimize the model further.
+

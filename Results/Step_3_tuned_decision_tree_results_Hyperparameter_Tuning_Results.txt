@@ -1,0 +1,16 @@
+Accuracy: 0.8425925925925926
+Confusion Matrix:
+[[36  9]
+ [ 8 55]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81        45
+           1       0.86      0.87      0.87        63
+
+    accuracy                           0.84       108
+   macro avg       0.84      0.84      0.84       108
+weighted avg       0.84      0.84      0.84       108
+
+ROC AUC: 0.9134038800705467
+Best Parameters: {'max_depth': 5, 'min_samples_leaf': 4, 'min_samples_split': 2}

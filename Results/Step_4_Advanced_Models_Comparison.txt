@@ -1,0 +1,60 @@
+Decision Tree:
+  Accuracy: 0.8472222222222222
+  Confusion Matrix: [[62 10]
+ [12 60]]
+  ROC AUC: 0.8472222222222223
+  Classification Report:               precision    recall  f1-score   support
+
+           0       0.84      0.86      0.85        72
+           1       0.86      0.83      0.85        72
+
+    accuracy                           0.85       144
+   macro avg       0.85      0.85      0.85       144
+weighted avg       0.85      0.85      0.85       144
+
+
+Random Forest:
+  Accuracy: 0.8402777777777778
+  Confusion Matrix: [[66  6]
+ [17 55]]
+  ROC AUC: 0.9291087962962963
+  Classification Report:               precision    recall  f1-score   support
+
+           0       0.80      0.92      0.85        72
+           1       0.90      0.76      0.83        72
+
+    accuracy                           0.84       144
+   macro avg       0.85      0.84      0.84       144
+weighted avg       0.85      0.84      0.84       144
+
+
+Gradient Boosting:
+  Accuracy: 0.8194444444444444
+  Confusion Matrix: [[65  7]
+ [19 53]]
+  ROC AUC: 0.9037422839506173
+  Classification Report:               precision    recall  f1-score   support
+
+           0       0.77      0.90      0.83        72
+           1       0.88      0.74      0.80        72
+
+    accuracy                           0.82       144
+   macro avg       0.83      0.82      0.82       144
+weighted avg       0.83      0.82      0.82       144
+
+
+Neural Network (CNN):
+  Accuracy: 0.7152777777777778
+  Confusion Matrix: [[48 24]
+ [17 55]]
+  ROC AUC: 0.8258101851851852
+  Classification Report:               precision    recall  f1-score   support
+
+           0       0.74      0.67      0.70        72
+           1       0.70      0.76      0.73        72
+
+    accuracy                           0.72       144
+   macro avg       0.72      0.72      0.71       144
+weighted avg       0.72      0.72      0.71       144
+
+
